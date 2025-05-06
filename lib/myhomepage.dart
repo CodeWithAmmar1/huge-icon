@@ -18,7 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(16.0),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               HugeIcon(
                 icon: HugeIcons.strokeRoundedZakat,
-                color: Colors.pink,
+                color: Colors.pinkAccent,
                 size: 40,
               ),
               HugeIcon(
@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               HugeIcon(
                 icon: HugeIcons.strokeRoundedAddCircle,
-                color: Colors.blue,
+                color: Colors.purple,
                 size: 40,
               ),
               HugeIcon(
@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               HugeIcon(
                 icon: HugeIcons.strokeRoundedGoogle,
-                color: Colors.blue,
+                color: Colors.deepOrange,
                 size: 40,
               ),
             ],
